@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Substack-AI+ — AI writing assistant for Substack</title>
+  <link rel="icon" type="image/png" href="icon-128.png" />
+  <meta name="description" content="Chrome extension that adds AI-powered title suggestions, paragraph rhythm optimization, and subject A/B testing to Substack." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { font-family: -apple-system, "Segoe UI", "Helvetica Neue", sans-serif; color: #1a1a1a; background: #fafafa; line-height: 1.8; margin: 0; padding: 0; }
+    .wrap { max-width: 800px; margin: 0 auto; padding: 48px 24px 80px; }
+    header { padding-bottom: 32px; border-bottom: 1px solid #e5e5e5; margin-bottom: 32px; text-align: center; }
+    header h1 { margin: 16px 0 8px; font-size: 36px; color: #ff6719; }
+    header .tag { color: #888; font-size: 14px; }
+    h2 { font-size: 22px; margin-top: 40px; color: #1a1a1a; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 24px 0; }
+    .feature { background: white; padding: 20px; border-radius: 8px; border: 1px solid #e5e5e5; }
+    .feature h3 { margin: 0 0 8px; font-size: 16px; color: #d44a0f; }
+    .feature p { margin: 0; font-size: 14px; color: #555; }
+    .cta { background: #ff6719; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; display: inline-block; font-weight: bold; margin: 24px 8px; }
+    .cta:hover { background: #d44a0f; }
+    footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid #e5e5e5; font-size: 13px; color: #888; text-align: center; }
+    footer a { margin: 0 8px; color: #d44a0f; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Substack-AI+</h1>
+    <p class="tag">AI writing assistant for Substack newsletters</p>
+    <a class="cta" href="https://chrome.google.com/webstore/search/substack-ai-plus">Get it on Chrome Web Store</a>
+  </header>
+
+  <h2>Features</h2>
+  <div class="features">
+    <div class="feature"><h3>📝 Title suggestions</h3><p>AI generates multiple title candidates from your draft, optimized for newsletter open rates.</p></div>
+    <div class="feature"><h3>📊 Paragraph rhythm</h3><p>Analyzes English cadence and suggests rhythm adjustments for natural reading flow.</p></div>
+    <div class="feature"><h3>📧 Subject A/B testing</h3><p>5 subject line variations to maximize open rate.</p></div>
+    <div class="feature"><h3>🪝 Lead paragraph optimizer</h3><p>Keep readers past the paywall with optimized opening 3 paragraphs.</p></div>
+    <div class="feature"><h3>🤖 Multi-AI support</h3><p>Choose between Claude / GPT / Gemini. Your API keys stay in your browser.</p></div>
+    <div class="feature"><h3>🔒 Privacy first</h3><p>Article content is sent only to your chosen AI provider. No Substack-AI+ servers involved.</p></div>
+  </div>
+
+  <h2>Pricing</h2>
+  <p><strong>Free</strong>: Basic AI suggestions (30 generations/month).<br/>
+  <strong>Pro ($9/month)</strong>: Unlimited generation + prompt template library + history management + multi-AI parallel + Substack-specific features. Coming soon.</p>
+
+  <h2>How to use</h2>
+  <ol>
+    <li>Install from the Chrome Web Store</li>
+    <li>Open your Substack post composer</li>
+    <li>Click the 🤖 icon in the toolbar</li>
+    <li>Set up your AI provider (Claude / GPT / Gemini) and API key</li>
+    <li>Draft → AI assistance → Publish</li>
+  </ol>
+
+  <h2>Support</h2>
+  <p>Bug reports / feature requests: <a href="https://github.com/kakeru-tools/substack-ai-plus/issues">GitHub Issues</a></p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="https://github.com/kakeru-tools/substack-ai-plus">GitHub</a> ·
+    © 2026 Kakeru
+  </footer>
+</div>
+</body>
+</html>
