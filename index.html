@@ -4,18 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Substack-AI+ — AI writing assistant for Substack newsletters</title>
-  <meta name="description" content="Chrome extension that adds AI-powered title suggestions, paragraph rhythm optimization, and subject line A/B testing to the Substack composer." />
+  <meta name="description" content="Chrome extension that adds an AI writing assistant — title suggestions, opening hooks, outline, readability and SEO checks — right inside the Substack composer. Bring your own Claude/OpenAI key." />
+  <link rel="canonical" href="https://kakeru-tools.github.io/substack-ai-plus-site/" />
   <link rel="icon" type="image/png" href="icon-128.png" />
   <!-- OGP / Twitter Card (Phase 162) -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Substack-AI+ — AI writing assistant for Substack" />
-  <meta property="og:description" content="Title suggestions, paragraph rhythm, subject A/B testing — right in the composer." />
+  <meta property="og:description" content="Title suggestions, opening hooks, outline, readability & SEO — right in the Substack composer." />
   <meta property="og:url" content="https://kakeru-tools.github.io/substack-ai-plus-site/" />
   <meta property="og:image" content="https://kakeru-tools.github.io/substack-ai-plus-site/icon-128.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Substack-AI+ — AI writing assistant" />
-  <meta name="twitter:description" content="Title suggestions, paragraph rhythm, subject A/B testing for Substack writers." />
+  <meta name="twitter:description" content="Title, opening, outline, readability & SEO help for Substack writers." />
   <meta name="twitter:image" content="https://kakeru-tools.github.io/substack-ai-plus-site/icon-128.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Substack-AI+",
+    "applicationCategory": "BrowserApplication",
+    "operatingSystem": "Chrome",
+    "description": "AI writing assistant inside the Substack composer: title suggestions, opening hooks, outline, readability and SEO checks. Bring your own Claude/OpenAI API key.",
+    "url": "https://kakeru-tools.github.io/substack-ai-plus-site/",
+    "offers": { "@type": "Offer", "price": "5", "priceCurrency": "USD" }
+  }
+  </script>
   <style>
     *, *::before, *::after { box-sizing: border-box; }
     :root {
@@ -131,7 +144,7 @@
     <h1>Substack-AI+</h1>
     <p class="tagline">
       AI writing assistant for Substack newsletter writers.<br/>
-      Title ideas, paragraph rhythm, subject A/B testing — right in the composer.
+      Title ideas, opening hooks, outline, readability & SEO — right in the composer.
     </p>
     <a class="cta" href="https://chromewebstore.google.com/detail/ngcmjdpnenidlpepjjanjgokgkmodfmm" target="_blank" rel="noopener">
       <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="Available in the Chrome Web Store" style="height:48px;vertical-align:middle" />
@@ -152,16 +165,16 @@
           <p>"Question hook", "answer-first", "story hook" — 3 patterns generated in one click.</p>
         </div>
         <div class="feature">
-          <h3>Paragraph rhythm analyzer</h3>
-          <p>Analyzes English cadence — sentence length variance, transition smoothness — with concrete suggestions.</p>
+          <h3>Outline</h3>
+          <p>Generates a structured outline for your post in one click — sections and flow suited to a newsletter.</p>
         </div>
         <div class="feature">
-          <h3>Subject line A/B testing</h3>
-          <p>5 subject line variations optimized for maximizing newsletter open rates. Test before sending.</p>
+          <h3>Readability check</h3>
+          <p>Scores readability locally — sentence length and paragraph balance — so your draft stays skimmable. No API key needed.</p>
         </div>
         <div class="feature">
-          <h3>Lead paragraph optimizer</h3>
-          <p>Keep readers past the paywall. Suggests opening 3 paragraphs that earn the click-through.</p>
+          <h3>SEO check</h3>
+          <p>Checks keyword presence in the title and body and suggests improvements. Runs locally — no API key needed.</p>
         </div>
         <div class="feature">
           <h3>Privacy first</h3>
@@ -190,7 +203,7 @@
           <p>All core features included</p>
           <ul>
             <li>Title suggestions / Hook openers</li>
-            <li>Paragraph rhythm / Subject A/B</li>
+            <li>Outline / Readability / SEO</li>
             <li>Up to 10 AI generations per day</li>
             <li>BYO API key (Claude / OpenAI)</li>
           </ul>
